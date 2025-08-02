@@ -1,0 +1,15 @@
+# bytetrack_custom.yaml
+tracker_type: bytetrack
+track_high_thresh: 0.5
+track_low_thresh: 0.1
+new_track_thresh: 0.6
+match_thresh: 0.8
+track_buffer: 30
+
+# 新增必要参数
+fuse_score: False       # 关键修复参数
+with_reid: False
+fast_reid_config: ""
+fast_reid_weights: ""
+proximity_thresh: 0.5
+appearance_thresh: 0.25

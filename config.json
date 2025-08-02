@@ -1,0 +1,40 @@
+{
+    "target_classes": [
+        "pedestrian",
+        "vehicle", 
+        "two_wheelers"
+    ],
+    "text_position": [20, 50],
+    "class_alias": {
+        "car": "vehicle",
+        "van": "vehicle",
+        "truck": "vehicle",
+        "bus": "vehicle",
+        "motorcycle": "two_wheelers",
+        "bicycle": "two_wheelers",
+        "person": "pedestrian"
+    },
+    "display_colors": {
+        "pedestrian": [0, 0, 255],
+        "vehicle": [255, 165, 0],
+        "two_wheelers": [0, 165, 255]
+    },
+    "display": {
+        "show_fps": true,
+        "font_scale": 0.7,
+        "text_offset": 40,
+        "progress_bar_height": 20
+    },
+    "counting_rules": {
+        "min_confidence": 0.6,
+        "min_duration": 15
+    },
+    "zones": [
+        {
+            "name": "main_entrance",
+            "coordinates": [200, 150, 1000, 600],
+            "color": [0, 255, 0],
+            "direction": "in"
+        }
+    ]
+}
