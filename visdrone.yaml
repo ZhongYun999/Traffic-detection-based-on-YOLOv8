@@ -1,0 +1,20 @@
+path: E:/Programming/python/Object Detection/YOLOv8/data/YOLO_Dataset  # 数据集根目录
+
+train: ../YOLO_Dataset/images/train  # 训练集路径（相对于YOLOv8主目录）
+val: ../YOLO_Dataset/images/val      # 验证集路径
+test: ../YOLO_Dataset/images/test    # 测试集路径
+
+names: 
+  0: pedestrian
+  1: bicycle
+  2: car
+  3: van
+  4: truck
+  5: tricycle
+  6: awning-tricycle
+  7: bus
+  8: motor
+
+nc: 9
+
+class_weights: [1.0, 3.5, 1.5, 4.0, 8.0, 5.0, 7.0, 15.0, 2.5]
